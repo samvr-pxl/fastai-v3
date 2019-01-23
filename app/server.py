@@ -10,10 +10,10 @@ from fastai.vision import *
 
 defaults.device = torch.device('cpu')
 
-model_file_url = 'https://drive.google.com/uc?id=1J10AxTAh-SRWJTOwZj9rLQgy1sTgl7Mj&export=download'
+model_file_url = 'https://drive.google.com/uc?export=download&id=1VwEux-UpVGRsy_ui00rJiMzpMD09eLxV'
 model_file_name = 'model'
 
-classes = ['anger', 'sad', 'smile']
+classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
 
 app = Starlette()
