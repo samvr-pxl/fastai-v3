@@ -10,7 +10,7 @@ from fastai.vision import *
 
 defaults.device = torch.device('cpu')
 
-model_file_url = 'https://drive.google.com/uc?id=1J2abEsKriEcoHs8q2CzldGMJKgbuFQCY&export=download'
+model_file_url = 'https://drive.google.com/uc?id=1-7nEpttizriIT9baFcRFbt4EyWdAASEm&export=download'
 model_file_name = 'model'
 
 classes = ['anger', 'sad', 'smile']
